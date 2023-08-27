@@ -11,7 +11,7 @@ body {
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .heading {
     font-size: 30px;
   }
@@ -20,7 +20,7 @@ body {
 .inner-small {
   margin: 120px 40px 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .inner-small {
     margin: 0 16px;
   }
@@ -29,7 +29,7 @@ body {
 .inner-large {
   margin: 115px 160px 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .inner-large {
     margin: 0 16px;
   }
@@ -59,7 +59,7 @@ body {
   display: inline-block;
   white-space: nowrap;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .button {
     padding: 12px 97px;
     letter-spacing: 3.6px;
@@ -67,7 +67,7 @@ body {
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .center-button {
     text-align: center;
   }
@@ -82,7 +82,7 @@ body {
   background: rgba(255, 255, 255, 0.1019607843);
   letter-spacing: -0.4px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .header {
     padding: 0 16px;
     height: 68px;
@@ -98,7 +98,7 @@ body {
   margin-right: auto;
   letter-spacing: 0.2px;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:901px) {
   .header-title {
     display: none;
   }
@@ -108,13 +108,13 @@ body {
   z-index: 2;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-open .drawer-nav {
     width: 300px;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-menu {
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@ body {
 .header-list:not(:first-child) {
   margin-left: 37px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .header-list:not(:first-child) {
     margin: 30px 0 0 0;
   }
@@ -139,7 +139,7 @@ body {
 .header-list:hover {
   border-bottom: 1px solid #3E3E3E;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .header-list {
     display: block;
   }
@@ -150,18 +150,18 @@ body {
   color: #3E3E3E;
   font-family: "Montserrat", sans-serif;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-menu-item:hover {
     text-decoration: none;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-menu-item {
     padding: 0;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-toggle.drawer-hamburger {
     position: absolute;
     top: 24px;
@@ -184,7 +184,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-open .header-title,
   .drawer-open .top,
   .drawer-open .news {
@@ -193,7 +193,7 @@ body {
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .drawer-close .header-title,
   .drawer-close .top,
   .drawer-close .news {
@@ -204,7 +204,7 @@ body {
 .top {
   height: calc(100vh - 83px);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .top {
     height: calc(100vh - 68px);
   }
@@ -218,7 +218,7 @@ body {
   top: 0;
   left: 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .top-area {
     position: initial;
     background: url(/img/mv.png) top 100% left 22%/350%;
@@ -231,7 +231,7 @@ body {
   top: 35%;
   left: 50%;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .top-box {
     top: 33.1%;
     left: 0;
@@ -244,7 +244,7 @@ body {
   letter-spacing: 0.02px;
   margin-bottom: 29px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .top-title {
     font-size: 24px;
     letter-spacing: 0;
@@ -258,7 +258,7 @@ body {
   letter-spacing: 0.45px;
   margin-bottom: 51px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .top-text {
     font-size: 14px;
     letter-spacing: 0;
@@ -267,7 +267,7 @@ body {
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .color-button.top {
     padding: 15px 32px;
     letter-spacing: -2px;
@@ -279,7 +279,7 @@ body {
   padding: 55px 60px 20px;
   text-align: center;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-inner {
     padding: 0;
     margin-top: -40px;
@@ -289,7 +289,7 @@ body {
 .news-heading {
   margin-bottom: 54px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-heading {
     margin: 0;
     padding: 36px 0;
@@ -299,7 +299,7 @@ body {
 .news-items {
   margin-bottom: 18px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-items {
     margin: 0;
   }
@@ -320,7 +320,7 @@ body {
 .news-item:first-of-type::after {
   margin-top: 6px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-item:first-of-type::after {
     margin: 0;
   }
@@ -332,7 +332,7 @@ body {
   margin-left: 60px;
   margin-top: 4px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-item::after {
     position: absolute;
     top: 50%;
@@ -347,7 +347,7 @@ body {
 .news-item:hover .news-label {
   background: #fff;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-item {
     display: block;
     padding: 12px 16px;
@@ -360,7 +360,7 @@ body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.45px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-date {
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -376,7 +376,7 @@ body {
   margin: 8px 40px;
   letter-spacing: 0.35px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-label {
     font-size: 12px;
     padding: 1px 14px;
@@ -392,7 +392,7 @@ body {
   letter-spacing: 0.45px;
   line-height: 1.5555555556;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-text {
     font-size: 14px;
     margin-top: 6px;
@@ -405,7 +405,7 @@ body {
 .news-items a:first-child .news-text {
   margin-top: -8px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-items a:first-child .news-text {
     margin-top: 7px;
   }
@@ -421,7 +421,7 @@ body {
   color: #fff;
   background: #3E3E3E;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .news-button {
     margin: 40px auto;
   }
@@ -432,7 +432,7 @@ body {
   text-align: center;
   margin-top: 120px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .service-container {
     background-image: linear-gradient(#3E3E3E 480px, #F3F3F3 480px 100%);
     margin-top: 60px;
@@ -444,21 +444,20 @@ body {
   color: #fff;
   padding: 55px 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .service-heading {
     padding: 36px 0;
   }
 }
 
 .service-inner {
-  min-width: 540px;
   background: #fff;
   margin-top: 0;
   padding: 60px 45px;
   display: flex;
   box-shadow: 0 5px 12px rgba(62, 62, 62, 0.2);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .service-inner {
     display: block;
     padding: 40px 16px 36px;
@@ -471,7 +470,7 @@ body {
 .service-item:not(:first-child) {
   margin-left: 10%;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .service-item:not(:first-child) {
     margin-top: 36px;
     margin-left: 0;
@@ -491,7 +490,7 @@ body {
   margin-left: 5px;
   font-size: 20px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .service-title {
     letter-spacing: 4px;
     line-height: 1.2;
@@ -511,7 +510,7 @@ body {
   margin-right: 0;
   padding: 55px 0 60px 60px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-inner {
     margin: 0;
     padding: 36px 0 0 0;
@@ -523,7 +522,7 @@ body {
   color: #fff;
   margin-bottom: 55px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-heading {
     margin-bottom: 36px;
   }
@@ -532,7 +531,7 @@ body {
 .swiper {
   padding-bottom: 40px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .swiper {
     padding-left: 16px;
   }
@@ -542,7 +541,7 @@ body {
   width: 400px;
   background: #fff;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .swiper-slide {
     width: 274px;
   }
@@ -552,7 +551,7 @@ body {
   width: 100%;
   height: 250px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-img {
     height: 171px;
   }
@@ -562,7 +561,7 @@ body {
   font-size: 20px;
   margin: 5px 16px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-title {
     font-size: 14px;
     letter-spacing: 0.01px;
@@ -574,7 +573,7 @@ body {
 .results-text {
   margin: 6px 16px 21px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-text {
     font-size: 12px;
     letter-spacing: 0.01px;
@@ -586,7 +585,7 @@ body {
 .swiper {
   padding-bottom: 63px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .swiper {
     padding-bottom: 47px;
   }
@@ -597,7 +596,7 @@ body {
   top: var(--swiper-pagination-top, auto);
   text-align: left;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     text-align: center;
     margin-left: 42px;
@@ -616,7 +615,7 @@ body {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
   margin-bottom: -4px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
   }
@@ -647,13 +646,13 @@ body {
   border: 1px solid #707070;
   background: #fff;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .results-button {
     margin: 22px 0 40px 0;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .price-inner {
     margin-top: 36px;
   }
@@ -663,7 +662,7 @@ body {
   text-align: center;
   margin-bottom: 55px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .price-heading {
     margin-bottom: 36px;
   }
@@ -690,7 +689,7 @@ body {
   font-family: "Montserrat", sans-serif;
   padding: 11.5px 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .price-row {
     width: 29%;
     font-size: 18px;
@@ -706,7 +705,7 @@ body {
   font-weight: bold;
   padding-left: 40px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .price-fee {
     width: 71%;
     font-size: 19px;
@@ -720,7 +719,7 @@ body {
   margin: 10px auto 0;
   max-width: 1000px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .price-text {
     margin-top: 6px;
   }
@@ -729,7 +728,7 @@ body {
 .background-wrapper {
   background: linear-gradient(#F3F3F3 148px, #3E3E3E 148px 94.1%, #F3F3F3 94.1%) left/76.5% no-repeat;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .background-wrapper {
     background: linear-gradient(#F3F3F3 60px, #3E3E3E 60px 100%) left/100% no-repeat;
   }
@@ -740,7 +739,7 @@ body {
   align-items: center;
   margin-top: 116px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-inner {
     margin-top: 56px;
     display: block;
@@ -753,7 +752,7 @@ body {
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1608);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-box {
     width: 100%;
     padding: 36px 20px 38px;
@@ -765,7 +764,7 @@ body {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-item {
     margin-top: 33px;
     align-items: stretch;
@@ -774,7 +773,7 @@ body {
 .comments-item + .comments-item {
   margin-top: 48px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-item + .comments-item {
     margin-top: 34px;
   }
@@ -786,7 +785,7 @@ body {
   border-radius: 50%;
   margin-top: 12px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-people-img {
     width: 60px;
     height: 60px;
@@ -797,7 +796,7 @@ body {
 .comments-text {
   margin-left: 32px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-text {
     font-size: 14px;
     margin-left: 20px;
@@ -811,7 +810,7 @@ body {
 .comments-img img {
   width: 100%;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .comments-img {
     display: none;
   }
@@ -823,7 +822,7 @@ body {
   padding-bottom: 120px;
   margin-top: 120px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs {
     margin-top: 60px;
     padding-top: 36px;
@@ -835,7 +834,7 @@ body {
   text-align: center;
   margin-bottom: 55px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-heading {
     margin-bottom: 36px;
   }
@@ -844,7 +843,7 @@ body {
 .faqs-inner {
   margin-right: 40px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-inner {
     margin: 0 16px;
   }
@@ -862,12 +861,12 @@ body {
 .faqs-box + .faqs-box {
   margin-top: 32px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-box + .faqs-box {
     margin-top: 25px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-box {
     width: 100%;
   }
@@ -907,7 +906,7 @@ body {
   right: -1px;
   transform: translateY(-95%);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-question.is-open::after {
     top: 0;
     transform: translateY(-50%);
@@ -935,7 +934,7 @@ body {
   margin-top: 16px;
   border-radius: 4px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .faqs-answer {
     font-size: 14px;
     padding: 8px 16px 8px 12px;
@@ -948,7 +947,7 @@ body {
   margin: 115px 40px 100px 100px;
   position: relative;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access {
     margin: 37px 16px 0;
     text-align: center;
@@ -959,7 +958,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access-inner {
     display: block;
     text-align: left;
@@ -970,7 +969,7 @@ body {
 .access-heading {
   margin-bottom: 50px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access-heading {
     margin-bottom: 32px;
   }
@@ -979,7 +978,7 @@ body {
 .access-address {
   margin-bottom: 29px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access-address {
     font-size: 14px;
     margin-bottom: 22px;
@@ -992,7 +991,7 @@ body {
   width: 63.7%;
   height: 520px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access-googlemap {
     margin-top: 0;
     width: 100%;
@@ -1014,7 +1013,7 @@ body {
   border: 1px solid #707070;
   background: #fff;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .access-button {
     position: static;
     margin-bottom: 60px;
@@ -1029,7 +1028,7 @@ body {
   padding: 60px 0;
   margin: 120px 160px 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-inner {
     margin: 0;
     padding: 40px 16px;
@@ -1043,7 +1042,7 @@ body {
   color: #fff;
   border-radius: 12px 12px 0 0;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-heading-area {
     padding: 37px 16px;
     background: url(/img/contact1-sp.png) center center/cover;
@@ -1053,7 +1052,7 @@ body {
 .contact-text {
   margin-top: 7px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-text {
     font-size: 14px;
     margin-top: 4px;
@@ -1067,7 +1066,7 @@ body {
   border-radius: 0 0 12px 12px;
   padding: 60px 120px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form {
     padding: 37px 12px 40px;
   }
@@ -1083,23 +1082,23 @@ body {
 .contact-form-item + .contact-form-item .contact-form-text {
   margin-top: -3px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-item + .contact-form-item .contact-form-text {
     margin-top: 0;
     margin-bottom: 8px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-item + .contact-form-item .contact-form-text {
     margin-top: 27px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-item + .contact-form-item {
     margin-top: 16px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-item {
     display: block;
   }
@@ -1109,12 +1108,12 @@ body {
   width: 188px;
   font-weight: bold;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-text:first-child {
     margin-bottom: 12px;
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-text {
     width: 100%;
     margin-bottom: 16px;
@@ -1124,7 +1123,7 @@ body {
 .contact-form-area {
   width: calc(100% - 188px);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-area {
     width: 100%;
   }
@@ -1146,7 +1145,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-name-text::after {
     margin-left: 20px;
   }
@@ -1157,11 +1156,11 @@ body {
   position: relative;
 }
 .contact-form-select-area select {
-  padding: 7px 37px 8px 11px;
+  padding: 7px 28px 8px 11px;
   cursor: pointer;
   border: 1px solid #707070;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-select-area select {
     padding: 7px 12px;
     width: 100%;
@@ -1181,7 +1180,7 @@ body {
 .contact-form-select-area:hover {
   box-shadow: 0 0 5px rgba(73, 115, 255, 0.502);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-select-area {
     font-size: 14px;
   }
@@ -1205,7 +1204,7 @@ input[type=email]:focus-visible {
   border-bottom: 1px solid #4973FF;
   box-shadow: 0 5px 4px -4px rgba(73, 115, 255, 0.502);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   input[type=text],
   input[type=email] {
     padding-left: 0;
@@ -1219,7 +1218,7 @@ input[type=email]:focus-visible {
   align-items: center;
   margin-top: 28px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-item-radio {
     display: block;
     margin-top: 26px;
@@ -1229,7 +1228,7 @@ input[type=email]:focus-visible {
 .contact-form-radio-area label:last-child {
   margin-left: 40px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-radio-area {
     margin-top: -5px;
   }
@@ -1299,7 +1298,7 @@ textarea:focus-visible {
   border: 1px solid #4973FF;
   box-shadow: 0 0 8px rgba(73, 115, 255, 0.5);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   textarea {
     height: 160px;
   }
@@ -1313,7 +1312,7 @@ textarea:focus-visible {
   padding-left: 40px;
   position: relative;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .contact-form-privacy {
     font-size: 16px;
     margin-top: 24px;
@@ -1373,10 +1372,14 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
   padding: 12px 53px;
   letter-spacing: -1px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .color-button.submit {
     padding: 11px 49px;
   }
+}
+.color-button:disabled {
+  background: #B2B2B2;
+  cursor: default;
 }
 
 .footer {
@@ -1389,7 +1392,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-inner {
     display: block;
     padding: 47px 0;
@@ -1405,7 +1408,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
 .footer-icon-link + .footer-icon-link {
   margin-left: 24px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-icon-link + .footer-icon-link {
     margin-left: 43px;
   }
@@ -1418,7 +1421,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
   margin-top: 24px;
   letter-spacing: 0.4px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-text {
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -1436,7 +1439,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
 .footer-text-link + .footer-text-link {
   margin-top: 16px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-text-link + .footer-text-link {
     margin-top: 19px;
   }
@@ -1444,7 +1447,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
 .footer-text-link:hover {
   opacity: 0.6;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-text-link {
     width: 100%;
   }
@@ -1458,7 +1461,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
   margin-top: 7px;
   letter-spacing: 0.3px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-sample {
     font-size: 32px;
     margin-top: 33px;
@@ -1477,7 +1480,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
 .footer-copylight small {
   font-size: 100%;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .footer-copylight {
     letter-spacing: 0.3px;
     margin-top: 4px;
@@ -1503,7 +1506,7 @@ input[type=checkbox]:checked + .contact-form-checkbox-part::after {
 .to-top:hover {
   opacity: 0.6;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   .to-top {
     bottom: 13px;
     right: 16px;

@@ -8,7 +8,7 @@
     <!-- reset.css ress -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <!-- drawer.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:767px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:900px)">
     <!-- jquery & iScroll -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
@@ -242,19 +242,19 @@
                         <div class="contact-form-item">
                             <dt class="contact-form-text contact-form-name-text">氏名</dt>
                             <dd class="contact-form-area">
-                                <input type="text" placeholder="氏名" name="entry.1545261633">
+                                <input id="js-name" type="text" placeholder="氏名" name="entry.1545261633" required>
                             </dd>
                         </div>
                         <div class="contact-form-item">
                             <dt class="contact-form-text contact-form-name-text">フリガナ</dt>
                             <dd class="contact-form-area">
-                                <input type="text" placeholder="フリガナ" name="entry.1418718894">
+                                <input id="js-ruby" type="text" placeholder="フリガナ" name="entry.1418718894" required>
                             </dd>
                         </div>
                         <div class="contact-form-item">
                             <dt class="contact-form-text">メールアドレス</dt>
                             <dd class="contact-form-area">
-                                <input type="email" placeholder="sample@gmail.com" name="emailAddress">
+                                <input type="email" placeholder="sample@gmail.com" name="entry.280140531">
                             </dd>
                         </div>
                         <div class="contact-form-item-radio">
@@ -281,13 +281,13 @@
                     </dl>
                     <p class="contact-form-privacy">
                        <label class="contact-form-checkbox-label">
-                            <input type="checkbox" name="entry.1809451634" value="同意する">
+                            <input id="js-checkbox" type="checkbox" name="entry.1809451634" value="同意する" required>
                             <span class="contact-form-checkbox-part"></span>
                        </label>
                        <a class="contact-form-privacy-link" href="" target="_blank">個人情報保護方針</a>に同意する
                     </p>
                     <div class="center-button">
-                        <button class="color-button submit" type="submit">送信する</button>
+                        <button id="js-submit-button" class="color-button submit" type="submit" disabled>送信する</button>
                     </div>
                 </form>
             </div>

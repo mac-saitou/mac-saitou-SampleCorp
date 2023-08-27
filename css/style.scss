@@ -5,8 +5,8 @@ $button-color: #FFAA3B;
 $english-font: 'Montserrat', sans-serif;
 
 $breakpoints:(
-    'sm': 'screen and (max-width:767px)',
-    'md': 'screen and (min-width:768px)'
+    'sm': 'screen and (max-width:900px)',
+    'md': 'screen and (min-width:901px)'
 )!default;
 @mixin mq($breakpoint: md){
     @media #{map-get($breakpoints, $breakpoint)}{
@@ -418,7 +418,6 @@ body{
   }
 }
 .service-inner{
-  min-width: 540px;
   background: #fff;
   margin-top: 0;
   padding: 60px 45px;
@@ -1047,7 +1046,7 @@ body{
   position: relative;
 
   select{
-    padding: 7px 37px 8px 11px;
+    padding: 7px 28px 8px 11px;
     cursor: pointer;
     border: 1px solid #707070;
 
@@ -1267,6 +1266,10 @@ input[type="checkbox"]{
     @include mq('sm'){
      padding: 11px 49px; 
     }
+  }
+  &:disabled{
+    background: #B2B2B2;
+    cursor:default;
   }
 }
 //footer------------------------------------------------------
