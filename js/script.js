@@ -1,6 +1,11 @@
 $(document).ready(function() {
     $('.drawer').drawer();
+    $('.header-list').on('click', function() {
+      $('.drawer').drawer('close');
+    });
 });
+
+
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 'auto',
@@ -22,6 +27,7 @@ var swiper = new Swiper(".mySwiper", {
       }
     }
   });
+
 
   $('a[href^="#"]').on('click', function(){
   let id = $(this).attr('href');
@@ -47,8 +53,6 @@ $('.faqs-box').on('click', function(){
   $(this).children('.faqs-answer').slideToggle();
   $(this).children('.faqs-question').toggleClass('is-open');
 });
-
-
 
 
 $(document).ready(function() {
