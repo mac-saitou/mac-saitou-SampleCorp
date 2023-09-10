@@ -1021,7 +1021,7 @@ body {
 }
 
 .contact {
-  background: url(/img/contact-bg.png) center center/cover;
+  background: url("https://github.com/mac-saitou/mac-saitou-SampleCorp/blob/main/img/contact-bg.png?raw=true") center center/cover;
 }
 
 .contact-inner {
