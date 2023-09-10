@@ -326,7 +326,7 @@ body {
   }
 }
 .news-item::after {
-  content: url(/img/news-arrow.svg);
+  content: url("https://raw.githubusercontent.com/mac-saitou/mac-saitou-SampleCorp/4efbebb544efd63765d01790226282d597ab42b2/img/news-arrow.svg");
   width: 27px;
   height: 27px;
   margin-left: 60px;
