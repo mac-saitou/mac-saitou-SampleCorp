@@ -886,7 +886,7 @@ body {
   display: none;
 }
 .faqs-question::after {
-  content: url(/img/plus.svg);
+  content: url("https://raw.githubusercontent.com/mac-saitou/mac-saitou-SampleCorp/166ed756dd1144b24349cdcf521b0bab7f2e98c1/img/plus.svg");
   position: absolute;
   width: 17px;
   height: 17px;
