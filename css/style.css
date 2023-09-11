@@ -1036,7 +1036,7 @@ body {
 }
 
 .contact-heading-area {
-  background: url(/img/contact1.png) center center/cover;
+  background: url("https://github.com/mac-saitou/mac-saitou-SampleCorp/blob/main/img/contact1.png?raw=true") center center/cover;
   padding: 55px 0;
   text-align: center;
   color: #fff;
