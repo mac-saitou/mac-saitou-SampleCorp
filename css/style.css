@@ -1045,7 +1045,7 @@ body {
 @media screen and (max-width:900px) {
   .contact-heading-area {
     padding: 37px 16px;
-    background: url(/img/contact1-sp.png) center center/cover;
+    background: url("https://github.com/mac-saitou/mac-saitou-SampleCorp/blob/main/img/contact1-sp.png?raw=true") center center/cover;
   }
 }
 
