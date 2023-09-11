@@ -167,7 +167,7 @@ body {
     top: 24px;
     right: 16px;
     padding: 0;
-    background: url(/img/hamburger-sp.svg) center center/contain no-repeat;
+    background: url("https://raw.githubusercontent.com/mac-saitou/mac-saitou-SampleCorp/5dd803aa0ac8817ad9d81d10be73b7b54aa12c6f/img/hamburger-sp.svg") center center/contain no-repeat;
     width: 26px;
     height: 20px;
   }
