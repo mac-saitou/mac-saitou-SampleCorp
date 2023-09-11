@@ -174,7 +174,7 @@ body {
 }
 
 .drawer-open .drawer-toggle.drawer-hamburger {
-  background: url(/img/batsu.svg) center center/contain no-repeat;
+  background: url("https://raw.githubusercontent.com/mac-saitou/mac-saitou-SampleCorp/8c3d33a1e0e7c5bf706758a5745ee8398d333ef7/img/batsu.svg") center center/contain no-repeat;
   right: 19.6rem;
 }
 
